@@ -16,8 +16,8 @@ class ViewController: UIViewController {
   }
   override func viewDidLoad() {
     super.viewDidLoad()
-    let inputPoints = [CGPoint(x: 0, y: 120), CGPoint(x: 40, y: 20), CGPoint(x: 80, y: 30),
-                   CGPoint(x: 120, y: 150), CGPoint(x: 160, y: 50), CGPoint(x: 200, y: 200), CGPoint(x: 240, y: 20)]
+    let inputPoints = [CGPoint(x: 0, y: 0), CGPoint(x: 40, y: 40), CGPoint(x: 80, y: 50),
+                       CGPoint(x: 120, y: 50), CGPoint(x: 140, y: 150), CGPoint(x: 150, y: 50), CGPoint(x: 200, y: 40), CGPoint(x: 240, y: 20)]
     
     graphView.series.append((inputPoints, UIColor.red))
 
